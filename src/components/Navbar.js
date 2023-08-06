@@ -1,7 +1,7 @@
 // Navbar.js
 
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // Import necessary dependencies
+import {  useNavigate } from 'react-router-dom'; // Import necessary dependencies
 import abc from '../assets/butterfly.jpg';
 import { BsFacebook, BsInstagram } from 'react-icons/bs';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
