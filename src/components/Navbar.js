@@ -13,7 +13,7 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   };
 
-  
+  // Function to handle the click on "All Products" link
   const handleAllProductsClick = () => {
     setShowDropdown(false); // Close the dropdown
     // Programmatically navigate to the '/categories' route
