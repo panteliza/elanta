@@ -1,10 +1,9 @@
-// Navbar.js
-
 import React, { useState } from 'react';
 import {  useNavigate } from 'react-router-dom'; // Import necessary dependencies
 import abc from '../assets/butterfly.jpg';
 import { BsFacebook, BsInstagram } from 'react-icons/bs';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
+import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -42,20 +41,24 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* Navbar layout */}
-      <div className="flex items-center justify-between w-full gap-10 px-[40px] bg-[#F4F4F4] pt-[12px]">
-        <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer">
-          <img src={abc} alt="logo" className="h-[70px] w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full " />
-        </div>
+  
+      <div className="flex items-center justify-between  w-full gap-10 lg:px-[40px] 
+    bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]   ">
+        
+        <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer md:hidden lg:block">
+  <img src={abc} alt="logo" className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full md:hidden lg:block" />
+</div>
 
-        <div className="flex text-[20px] 2xl:text-[40px] gap-16 text-pink-500 cursor-pointer items-center">
+
+
+        <div className=" hidden lg:flex text-[20px] 2xl:text-[40px] gap-16 text-pink-500 cursor-pointer items-center">
           <div
             className="relative flex items-center gap-2 hover:text-blue-400 hover:bg-pink-200 px-2 py-2 rounded-md"
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
             <div className="">PRODUCTS</div>
-            <div className="text-[15px] font-bold ">
+            <div className="text-[15px] font-bold 2xl:text-[30px]">
               {showDropdown ? <AiOutlineUp /> : <AiOutlineDown />}
             </div>
             {showDropdown && (
@@ -73,13 +76,24 @@ const Navbar = () => {
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">ABOUT</div>
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">CONTACT</div>
         </div>
-
-        <div className="flex text-[25px] 2xl:text-[42px] gap-2 text-pink-400">
-          <BsFacebook className="hover:text-pink-600" />
-          <BsInstagram />
+        <div className='lg:hidden text-gray-500    '>
+          <HiOutlineMenuAlt2 className=' text-[40px] '/>
         </div>
-      </div>
-    </div>
+
+        <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer  hidden md:block lg:hidden">
+  <img src={abc} alt="logo" className="h-[60px] w-[60px] rounded-full" />
+</div>
+
+
+       
+
+        <div className=" hidden md:flex md:text-[30px] 2xl:text-[42px] gap-2 text-pink-400 cursor-pointer">
+          <BsFacebook className="hover:text-pink-600" />
+          <BsInstagram className="hover:text-pink-600" />
+        </div>
+     </div>
+     </div>
+  
   );
 };
 
