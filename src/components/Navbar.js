@@ -45,10 +45,10 @@ const Navbar = () => {
       {/* Navbar layout */}
       <div className="flex items-center justify-between w-full gap-10 px-[40px] bg-[#F4F4F4] pt-[12px]">
         <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer">
-          <img src={abc} alt="logo" className="h-[70px] w-[70px] rounded-full " />
+          <img src={abc} alt="logo" className="h-[70px] w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full " />
         </div>
 
-        <div className="flex text-[20px] gap-16 text-pink-500 cursor-pointer items-center">
+        <div className="flex text-[20px] 2xl:text-[40px] gap-16 text-pink-500 cursor-pointer items-center">
           <div
             className="relative flex items-center gap-2 hover:text-blue-400 hover:bg-pink-200 px-2 py-2 rounded-md"
             onMouseEnter={toggleDropdown}
@@ -59,7 +59,7 @@ const Navbar = () => {
               {showDropdown ? <AiOutlineUp /> : <AiOutlineDown />}
             </div>
             {showDropdown && (
-              <div className="absolute top-12 text-[15px] bg-white pl-3 gap-7  rounded shadow w-[160px]">
+              <div className="absolute top-12 2xl:top-20 text-[15px] 2xl:text-[30px]  bg-white pl-3 2xl:pl-5 gap-7  rounded shadow w-[160px] 2xl:w-[280px]">
                 <div className="flex flex-col gap-3 pt-2 pb-4">
                   {/* Use the handleAllProductsClick function when clicking on the link */}
                   <div className='hover:text-[#ed93c0]' onClick={handleAllProductsClick}>All Products</div>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">CONTACT</div>
         </div>
 
-        <div className="flex text-[25px] gap-2 text-pink-400">
+        <div className="flex text-[25px] 2xl:text-[42px] gap-2 text-pink-400">
           <BsFacebook className="hover:text-pink-600" />
           <BsInstagram />
         </div>
