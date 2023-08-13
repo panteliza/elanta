@@ -20,7 +20,7 @@ const Slider = ({ slides }) => {
         shadow: true,
         slideShadows: true,
         shadowOffset: 20,
-        shadowScale: 0.94,
+        shadowScale: 0.96,
       }}
     >
       {slides.map((slide) => (
