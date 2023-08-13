@@ -19,7 +19,7 @@ const Slider = ({ slides }) => {
       cubeEffect={{
         shadow: true,
         slideShadows: true,
-        shadowOffset: 20,
+        shadowOffset: 18,
         shadowScale: 0.96,
       }}
     >
