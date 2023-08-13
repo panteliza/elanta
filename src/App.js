@@ -3,12 +3,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Categories from './pages/Categories';
+import Slider from './components/Slider';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div>
         <Navbar />
+        <Slider/>
         <Routes>
           {/* Define your routes here */}
           <Route path="/categories" element={<Categories />} />
