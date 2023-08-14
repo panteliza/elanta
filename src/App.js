@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <div>
         <Navbar />
-        <Slider/>
+       <Slider/>
         <Routes>
           {/* Define your routes here */}
           <Route path="/categories" element={<Categories />} />
