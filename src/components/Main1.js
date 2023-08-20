@@ -8,7 +8,7 @@ import bluepad from '../assets/bluepad.png'
 
 export default function App() {
   return (
-    <div className="px-2 sm:px-5 md:px-10 lg:px-20 bg-[#f1b7d4]">
+    <div className="px-2 sm:px-5 md:px-10 lg:px-20 bg-[#f1b7d4] ">
       <div className='flex justify-center font-bold text-[40px] py-5 text-[#f8e8e9]'>Our Product Range</div>
       <Swiper
         slidesPerView={3}
@@ -24,7 +24,7 @@ export default function App() {
             <div className='bg-yellow-400 pt-[40px]'>
             <img src={bluepad }className='w-[170px] h-[170px]  '/>
             </div>
-            <div>Sanitary pad</div>
+            <div className='bg-red-400 text-center'>Sanitary pad</div>
             </div>
         </SwiperSlide>
         

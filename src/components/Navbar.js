@@ -47,7 +47,7 @@ const Navbar = () => {
 
 
   return (
-    <div>
+    <div className=''>
   
       <div className="flex items-center justify-between  w-full gap-10 lg:px-[40px] 
     bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]   ">
@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <div className=" hidden lg:flex text-[20px] 2xl:text-[40px] gap-16 text-pink-500 cursor-pointer items-center">
           <div
-            className="relative flex items-center gap-2 hover:text-blue-400 hover:bg-pink-200 px-2 py-2 rounded-md"
+            className="relative flex items-center gap-2 hover:text-blue-400 hover:bg-pink-200 px-2 py-2 rounded-md "
             onMouseEnter={toggleDropdown}
             onMouseLeave={toggleDropdown}
           >
@@ -69,8 +69,8 @@ const Navbar = () => {
               {showDropdown ? <AiOutlineUp /> : <AiOutlineDown />}
             </div>
             {showDropdown && (
-              <div className="absolute top-12 2xl:top-20 text-[15px] 2xl:text-[30px]  bg-white pl-3 2xl:pl-5 gap-7  rounded shadow w-[160px] 2xl:w-[280px]">
-                <div className="flex flex-col gap-3 pt-2 pb-4">
+              <div className="absolute top-12 2xl:top-20 text-[15px] 2xl:text-[30px]  bg-white pl-3 2xl:pl-5 gap-7 z-[1] rounded shadow w-[160px] 2xl:w-[280px]">
+                <div className="flex flex-col gap-3 pt-2 pb-4   ">
                   {/* Use the handleAllProductsClick function when clicking on the link */}
                   <div className='hover:text-[#ed93c0]' onClick={handleAllProductsClick}>All Products</div>
                   <div className="hover:text-[#ed93c0]"  onClick={handleSanitaryPadsClick}>Sanitary Pads</div>
