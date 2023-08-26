@@ -9,6 +9,7 @@ import Main1 from './components/Main1';
 import Testimonial from './components/Testimonial';
 import Mission from './components/Mission';
 import Predictor from './components/Predictor';
+import Blogs from './components/Footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
        <Testimonial/>
      <Predictor/>
        <Mission/>
+       <Blogs/>
       
         <Routes>
           {/* Define your routes here */}
