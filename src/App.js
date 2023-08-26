@@ -5,7 +5,10 @@ import Navbar from './components/Navbar';
 import Categories from './pages/Categories';
 import Slider from './components/Slider';
 import Main1 from './components/Main1';
-import Main2 from './components/Main2';
+
+import Testimonial from './components/Testimonial';
+import Mission from './components/Mission';
+import Predictor from './components/Predictor';
 
 const App = () => {
   return (
@@ -14,7 +17,10 @@ const App = () => {
         <Navbar />
        <Slider/>
        <Main1/>
-       <Main2/>
+       <Testimonial/>
+     <Predictor/>
+       <Mission/>
+      
         <Routes>
           {/* Define your routes here */}
           <Route path="/categories" element={<Categories />} />

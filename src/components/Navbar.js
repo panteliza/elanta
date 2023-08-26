@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
 {/* sidebar */}
 {show && (
-  <div className="lg:hidden flex flex-col w-[300px] top-0 fixed h-full left-0 gap-2 bg-[#F4F4F4]">
+  <div className="lg:hidden flex flex-col w-[300px] top-0 fixed h-full left-0 gap-2 bg-[#F4F4F4] z-[1]">
     {/* ...previous sidebar content... */}
     <div className="flex justify-end pr-4 py-3 ">
       <MdOutlineClose className="text-[30px]" onClick={showIt} />
