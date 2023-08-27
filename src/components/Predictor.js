@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pads from '../assets/IMG-6926.jpg';
+import pads from '../assets/awareness (2).jpg';
 
 function Predictor() {
   const [lastPeriodDate, setLastPeriodDate] = useState('');
@@ -56,13 +56,20 @@ function Predictor() {
 
   return (
     <div className="flex h-screen  bg-[#f1b7d4]  px-5 py-24 gap-5 ">
-     <div className='w-[800px] flex flex-col '>
-     <div className=' flex justify-center'>
-  <div className='w-[250px] h-[250px] bg-white '>hi</div>
+     <div className='w-[800px] flex   px-2'>
+     <div className='flex gap-5 '>
+  <div className='w-[300px] h-[300px] bg-white flex flex-col'>
+    <img src={pads} className='w-[300px] h-[280px] ' />
+    <div className=' font-semibold text-gray-600 px-1 text-sm text-center'>Breaking Barriers: Embracing Open Conversations About Menstruation</div>
+   
+  </div>
+  <div className=' h-[300px] w-[500px] flex flex-col justify-center items-center gap-2'>
+    <div className='text-gray-500'>In a world where open conversations about menstruation have often been shrouded in silence and secrecy, it's time to break free from the confines of discomfort and shyness. Menstruation is a natural and essential aspect of human life, and discussing it openly is not just necessary, but liberating. In this blog post, we'll dive into why it's important to overcome shyness and embrace candid conversations about menstruation.</div>
+    <button className='  rounded-md px-3 py-1 bg-pink-500'>Learn More</button>
+  </div>
   </div>
       <div className='flex justify-between bg-red-300 '> 
-  <div className='w-[250px] h-[250px] bg-white'>hi</div>
-  <div className='w-[250px] h-[250px] bg-white '>hi</div>
+ 
   </div>
   
 </div>
