@@ -1,76 +1,79 @@
+
 import React, { useState } from 'react';
 import pads from '../assets/awareness (2).jpg';
+import pads1 from '../assets/awareness (1).jpg';
 
 function Predictor() {
-  const [lastPeriodDate, setLastPeriodDate] = useState('');
+  const [firstDayOfLastPeriod, setFirstDayOfLastPeriod] = useState('');
   const [cycleLength, setCycleLength] = useState('');
-  const [occurrenceDuration, setOccurrenceDuration] = useState('28'); // Default to 28 days
+  const [occurrenceDuration, setOccurrenceDuration] = useState('');
   const [predictedDate, setPredictedDate] = useState('');
   const [isCalculated, setIsCalculated] = useState(false);
 
   const handleCalculate = () => {
-    if (lastPeriodDate && cycleLength && occurrenceDuration) {
+    if (firstDayOfLastPeriod && cycleLength && occurrenceDuration) {
       const cycleDuration = parseInt(cycleLength);
       const occurrenceDurationValue = parseInt(occurrenceDuration);
-      const lastDate = new Date(lastPeriodDate);
+      const firstDate = new Date(firstDayOfLastPeriod);
       const nextPeriodDate = new Date(
-        lastDate.getTime() + (occurrenceDurationValue + cycleDuration) * 24 * 60 * 60 * 1000
+        firstDate.getTime() + (cycleDuration * 24 * 60 * 60 * 1000) + (occurrenceDurationValue * 24 * 60 * 60 * 1000)
       );
-      setPredictedDate(nextPeriodDate.toDateString());
+      const predictedDateAfterSubtraction = new Date(nextPeriodDate);
+      predictedDateAfterSubtraction.setDate(predictedDateAfterSubtraction.getDate() - cycleDuration); // Subtract cycle length
+      setPredictedDate(predictedDateAfterSubtraction.toDateString());
       setIsCalculated(true);
     }
   };
 
   const handleReset = () => {
-    setLastPeriodDate('');
+    setFirstDayOfLastPeriod('');
     setCycleLength('');
-    setOccurrenceDuration('28');
+    setOccurrenceDuration('');
     setPredictedDate('');
     setIsCalculated(false);
   };
-  const blogs = [
-    {
-      id: 1,
-      title:  "Stay Fresh: The Importance of Changing Pads Every 3-4 Hours",
-      image: 'pads',
-      content: 'When it comes to menstrual hygiene, one of the most crucial practices is changing your sanitary pad regularly.'
-    },
-      
-    {
-      id: 2,
-      title: 'Feel Good: Empower Your Cycle',
-      image: {pads},
-      content: "Every woman's journey with menstruation is unique, but one thing holds true for all: the importance of cultivating healthy menstrual habits."
-     
-    },
-    {
-      id: 3,
-      title: 'Breaking Barriers: Embracing Open Conversations About Menstruation',
-      image: 'pads',
-      content: "In a world where open conversations about menstruation have often been shrouded in silence and secrecy, it's time to break free from the confines of discomfort and shyness. "
-      
-    },
-  ];
+
+  // Reset form
+  // const handleReset = () => {
+  //   setFirstDayOfLastPeriod('');
+  //   setCycleLength('');
+  //   setOccurrenceDuration('28');
+  //   setPredictedDate('');
+  //   setIsCalculated(false);
+  // };
+ 
   
   
 
   return (
-    <div className="flex h-screen  bg-[#f1b7d4]  px-5 py-24 gap-5 ">
+    <div className="flex  bg-[#f1b7d4]  px-5 py-24 gap-12 items-center ">
      <div className='w-[800px] flex   px-2'>
-     <div className='flex gap-5 '>
+     <div className='flex flex-col gap-10'>
+      <div className=' flex'>
   <div className='w-[300px] h-[300px] bg-white flex flex-col'>
     <img src={pads} className='w-[300px] h-[280px] ' />
     <div className=' font-semibold text-gray-600 px-1 text-sm text-center'>Breaking Barriers: Embracing Open Conversations About Menstruation</div>
    
   </div>
-  <div className=' h-[300px] w-[500px] flex flex-col justify-center items-center gap-2'>
-    <div className='text-gray-500'>In a world where open conversations about menstruation have often been shrouded in silence and secrecy, it's time to break free from the confines of discomfort and shyness. Menstruation is a natural and essential aspect of human life, and discussing it openly is not just necessary, but liberating. In this blog post, we'll dive into why it's important to overcome shyness and embrace candid conversations about menstruation.</div>
+  <div className=' h-[300px] w-[500px] flex flex-col justify-center items-center gap-2 px-4'>
+    <div className='text-gray-500 text-justify'>In a world where open conversations about menstruation have often been shrouded in silence and secrecy, it's time to break free from the confines of discomfort and shyness. Menstruation is a natural and essential aspect of human life, and discussing it openly is not just necessary, but liberating. In this blog post, we'll dive into why it's important to overcome shyness and embrace candid conversations about menstruation.</div>
     <button className='  rounded-md px-3 py-1 bg-pink-500'>Learn More</button>
   </div>
+</div>
+<div className='flex'>
+  
+  <div className=' h-[300px] w-[500px] flex flex-col justify-center items-center gap-1 px-4'>
+    <div className='text-gray-500 text-justify'>Every woman's journey with menstruation is unique, but one thing holds true for all: the importance of cultivating healthy menstrual habits. These habits not only contribute to physical well-being but also empower you to embrace your body's natural rhythms. In this blog post, we'll explore a range of menstrual habits that can help you feel good, confident, and connected to your body throughout your cycle.</div>
+    <button className='  rounded-md px-3 py-1 bg-pink-500'>Learn More</button>
   </div>
-      <div className='flex justify-between bg-red-300 '> 
- 
+  <div className='w-[300px] h-[300px] bg-white flex flex-col'>
+    <img src={pads1} className='w-[300px] h-[280px] ' />
+    <div className=' font-semibold text-gray-600 px-1 text-sm text-center'>Feel Good: Empower Your Cycle</div>
+   
   </div>
+</div>
+  </div>
+      
   
 </div>
 
@@ -82,8 +85,8 @@ function Predictor() {
         <input
           type="date"
           className="w-full px-3 py-2 border rounded mb-4"
-          value={lastPeriodDate}
-          onChange={(e) => setLastPeriodDate(e.target.value)}
+          value={firstDayOfLastPeriod}
+          onChange={(e) => setFirstDayOfLastPeriod(e.target.value)}
         />
         <label className="block mb-2">Average Cycle Length (in days):</label>
         <input
