@@ -1,31 +1,28 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Categories from './pages/Categories';
-import Slider from './components/Slider';
-import Main1 from './components/Main1';
 
-import Testimonial from './components/Testimonial';
-import Mission from './components/Mission';
-import Predictor from './components/Predictor';
-import Blogs from './components/Footer';
+import Pads from './pages/Pads';
+
+
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div>
-        <Navbar />
+        {/* <Navbar />
        <Slider/>
        <Main1/>
        <Testimonial/>
      <Predictor/>
        <Mission/>
-       <Blogs/>
+       <Footer/> */}
       
         <Routes>
           {/* Define your routes here */}
-          <Route path="/categories" element={<Categories />} />
+          <Route path="/sanitary-pads" element={<Pads />} />
+          <Route path="/" element={<Home />} />
           {/* Add more routes if needed */}
         </Routes>
       </div>

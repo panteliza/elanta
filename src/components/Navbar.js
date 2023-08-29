@@ -30,19 +30,19 @@ const Navbar = () => {
   const handleSanitaryPadsClick = () => {
     setShowDropdown(false); 
    
-    navigate('/categories/sanitary-pads');
+    navigate('/sanitary-pads');
   };
 
   const handleAdultDiapersClick = () => {
     setShowDropdown(false); 
    
-    navigate('/categories/adult-diaper');
+    navigate('/adult-diaper');
   };
 
   const handleBabyDiapersClick = () => {
     setShowDropdown(false); 
    
-    navigate('/categories/baby-diaper');
+    navigate('/baby-diaper');
   };
 
 

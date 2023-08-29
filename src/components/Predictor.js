@@ -46,11 +46,11 @@ function Predictor() {
   
 
   return (
-    <div className="flex  bg-[#f1b7d4]  px-5 py-24 gap-12 items-center ">
+    <div className="flex  bg-[#f1b7d4]  px-10 py-24 gap-12 items-center ">
      <div className='w-[800px] flex   px-2'>
      <div className='flex flex-col gap-10'>
       <div className=' flex'>
-  <div className='w-[300px] h-[300px] bg-white flex flex-col'>
+  <div className='w-[300px] h-[300px] bg-white shadow-2xl  flex flex-col'>
     <img src={pads} className='w-[300px] h-[280px] ' />
     <div className=' font-semibold text-gray-600 px-1 text-sm text-center'>Breaking Barriers: Embracing Open Conversations About Menstruation</div>
    

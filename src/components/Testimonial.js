@@ -26,8 +26,8 @@ const testimonialsData = [
 
 function TestimonialPage() {
   return (
-    <div className="bg-[#f1b7d4] h-[400px] ">
-      <header className="bg-[#f1b7d4] text-white py-4 text-center">
+    <div className="bg-[#f1b7d4]   pt-2 flex flex-col gap-7" >
+      <header className=" text-white text-center ">
         <h1 className="font-bold text-[40px]">Our Customer Says</h1>
       </header>
       <main className="container mx-auto px-6 ">
