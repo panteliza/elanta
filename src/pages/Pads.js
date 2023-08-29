@@ -12,9 +12,10 @@ const Pads = () => {
           alt="Sanitary Pads"
         />
         <div
-          className='text-[30px] font-bold text-center px-[200px] py-7 text-gradient from-pink-500 via-blue-500 to-purple-500'
-        >
-          Experience an extensive selection of sanitary pads,
+          className='font-extrabold     text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-pink-600 text-center px-6 py-7'
+      >
+         
+Discover a Wide Range of Daily Sanitary Pads.
         </div>
       </div>
     </div>
