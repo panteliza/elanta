@@ -50,7 +50,7 @@ const Navbar = () => {
     <div className=''>
   
       <div className="flex items-center justify-between  w-full gap-10 lg:px-[40px] 
-    bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]   ">
+    bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]    ">
         
         <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer md:hidden lg:block">
   <img src={abc} alt="logo" className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full md:hidden lg:block" />
@@ -173,10 +173,7 @@ items-center w-[250px] justify-center py-2'>
 
 </div>
 
-
-       
-
-        <div className=" hidden md:flex md:text-[30px] 2xl:text-[42px] gap-2 text-pink-400 cursor-pointer">
+ <div className=" hidden md:flex md:text-[30px] 2xl:text-[42px] gap-2 text-pink-400 cursor-pointer">
           <BsFacebook className="hover:text-pink-600" />
           <BsInstagram className="hover:text-pink-600" />
         </div>

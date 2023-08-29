@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 import Pads from './pages/Pads';
+import Diapers from './pages/Diapers';
 
 
 import Home from './pages/Home';
@@ -21,6 +22,7 @@ const App = () => {
       
         <Routes>
           {/* Define your routes here */}
+          <Route path="/baby-diaper" element={<Diapers />} />
           <Route path="/sanitary-pads" element={<Pads />} />
           <Route path="/" element={<Home />} />
           {/* Add more routes if needed */}

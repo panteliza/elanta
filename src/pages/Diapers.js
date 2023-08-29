@@ -60,13 +60,14 @@ const Pads = () => {
       <Navbar />
       <div className=''>
         <img
-          src="https://plus.unsplash.com/premium_photo-1661306967147-f5b9e87a352b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGluayUyMHRoZW1lJTIwZmxvd2Vyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-          className='w-full h-[400px]'
+          src="https://images.ctfassets.net/9wtva4vhlgxb/4ctwud75d425G2fKSt2mr/e484856bf2245b0db94163a5ba65756e/Leaking_Diaper_720________432.jpg?fm=webp&q=70"
+          className='w-full h-[450px]'
           alt="Sanitary Pads"
         />
       </div>
-      <div className='font-extrabold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-pink-600 text-center px-6 py-7'>
-        Discover a Wide Range of Daily Sanitary Pads.
+      <div className='font-extrabold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-600 to-pink-600 text-center px-28 py-7'>
+     
+       Explore baby diapers that keep your little one dry and comfy.
       </div>
       <div className=' w-full flex flex-col gap-6 justify-center py-6 px-32'>
         <Section
@@ -84,16 +85,8 @@ const Pads = () => {
           images={[abc, cba]} // You can replace with the appropriate images
           features={padFeatures280MM}
         />
-        <Section
-          title="Size 280 MM Pads"
-          images={[abc, cba]} // You can replace with the appropriate images
-          features={padFeatures280MM}
-        />
-         <Section
-          title="Size 280 MM Pads"
-          images={[abc, cba]} // You can replace with the appropriate images
-          features={padFeatures280MM}
-        />
+       
+         
       </div>
       <Footer/>
     </div>
