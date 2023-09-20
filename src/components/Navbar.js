@@ -5,6 +5,7 @@ import { BsFacebook, BsInstagram } from 'react-icons/bs';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 import { MdOutlineClose } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -81,7 +82,9 @@ const Navbar = () => {
             )}
           </div>
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">ABOUT</div>
+          <Link to='/contact'>
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">CONTACT</div>
+          </Link>
         </div>
 {/* sidebar */}
 {show && (

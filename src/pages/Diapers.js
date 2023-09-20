@@ -85,9 +85,7 @@ const Pads = () => {
           images={[abc, cba]} // You can replace with the appropriate images
           features={padFeatures280MM}
         />
-       
-         
-      </div>
+        </div>
       <Footer/>
     </div>
   );
