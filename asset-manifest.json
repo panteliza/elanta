@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elanta/static/css/main.569c4ec6.css",
-    "main.js": "/elanta/static/js/main.471cf372.js",
+    "main.js": "/elanta/static/js/main.e1324039.js",
     "static/js/787.713450c9.chunk.js": "/elanta/static/js/787.713450c9.chunk.js",
     "static/media/IMG-8118.jpg": "/elanta/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
     "static/media/awareness (1).jpg": "/elanta/static/media/awareness (1).3b23183c901912ffa61b.jpg",
@@ -16,11 +16,11 @@
     "static/media/padpic.png": "/elanta/static/media/padpic.360ddda6509e327c9570.png",
     "index.html": "/elanta/index.html",
     "main.569c4ec6.css.map": "/elanta/static/css/main.569c4ec6.css.map",
-    "main.471cf372.js.map": "/elanta/static/js/main.471cf372.js.map",
+    "main.e1324039.js.map": "/elanta/static/js/main.e1324039.js.map",
     "787.713450c9.chunk.js.map": "/elanta/static/js/787.713450c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.569c4ec6.css",
-    "static/js/main.471cf372.js"
+    "static/js/main.e1324039.js"
   ]
 }
