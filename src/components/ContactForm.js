@@ -25,7 +25,7 @@ const ContactForm = () => {
             <div className="w-full md:w-1/2 pl-2">
               
               <input
-                type="text"
+                type="number"
                 id="contactNumber"
                 name="contactNumber"
                 className="w-full p-2 border rounded-md"
@@ -96,7 +96,7 @@ const ContactForm = () => {
             <div className="w-full md:w-1/2 pl-2">
               
               <input
-                type="text"
+                type="number"
                 id="contactNumber"
                 name="contactNumber"
                 className="w-full p-2 border rounded-md"

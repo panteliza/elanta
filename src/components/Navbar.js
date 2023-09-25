@@ -73,15 +73,25 @@ const Navbar = () => {
               <div className="absolute top-12 2xl:top-20 text-[15px] 2xl:text-[30px]  bg-white pl-3 2xl:pl-5 gap-7 z-[1] rounded shadow w-[160px] 2xl:w-[280px]">
                 <div className="flex flex-col gap-3 pt-2 pb-4   ">
                   {/* Use the handleAllProductsClick function when clicking on the link */}
+                  <Link to='/'>
                   <div className='hover:text-[#ed93c0]' onClick={handleAllProductsClick}>All Products</div>
+                  </Link>
+                  <Link to='/sanitary-pads'>
                   <div className="hover:text-[#ed93c0]"  onClick={handleSanitaryPadsClick}>Sanitary Pads</div>
+                  </Link>
+                  <Link to='/adult-diaper'>
                   <div className="hover:text-[#ed93c0]" onClick={handleAdultDiapersClick}>Adult Diapers</div>
+                  </Link>
+                  <Link to='/baby-diaper'>
                   <div className="hover:text-[#ed93c0]" onClick={handleBabyDiapersClick}>Baby Diapers</div>
+                  </Link>
                 </div>
               </div>
             )}
           </div>
+          <Link to='/about'>
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">ABOUT</div>
+          </Link>
           <Link to='/contact'>
           <div className="hover:text-blue-500 hover:bg-pink-200 px-2 py-2 rounded-md">CONTACT</div>
           </Link>
@@ -130,6 +140,7 @@ const Navbar = () => {
       )}
     </div>
 
+    <Link to='/about'>
     <div
       className={`border border-gray-400  flex gap-2 text-gray-600 items-center w-[250px] justify-center  py-2 ${
         showDropdown ? 'mt-[25px]' : 'mt-[0px]'
@@ -137,6 +148,7 @@ const Navbar = () => {
     >
       <div>About</div>
     </div>
+    </Link>
 
 
 <div className='border border-gray-400  flex gap-2 text-gray-600 
@@ -144,10 +156,12 @@ items-center w-[250px] justify-center  py-2'>
   <div >Media</div>
   </div>
 
+  <Link to='/contact'>
   <div className='border border-gray-400  flex gap-2 text-gray-600 
 items-center w-[250px] justify-center py-2'>
-  <div >Conatct</div>
+  <div >Contact</div>
   </div>
+  </Link>
 
 <div className='flex ml-[100px]  gap-2 text-pink-400 cursor-pointer text-[25px]  '>
     <BsFacebook className="hover:text-pink-600" />
