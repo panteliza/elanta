@@ -26,18 +26,17 @@ const testimonialsData = [
 
 function TestimonialPage() {
   return (
-    <div className="bg-[#f1b7d4]   pt-2 flex flex-col gap-7" >
-      <header className=" text-white text-center ">
+    <div className="bg-[#f1b7d4] pt-2 flex flex-col gap-7">
+      <header className="text-white text-center">
         <h1 className="font-bold text-[40px]">Our Customer Says</h1>
       </header>
-      <main className="container mx-auto px-6 ">
-        <section className="bg-white rounded-lg shadow-md p-6 mb-6 ">
-        
+      <main className="container mx-auto px-4 md:px-6">
+        <section className="bg-white rounded-lg shadow-md p-4 md:p-6 mb-4 md:mb-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {testimonialsData.map((testimonial, index) => (
               <div
                 key={testimonial.id}
-                className={`bg-white rounded-lg shadow-md p-6 border border-gray-300 ${
+                className={`bg-white rounded-lg shadow-md p-4 md:p-6 border border-gray-300 ${
                   index % 2 === 0 ? 'md:order-first' : 'md:order-last'
                 }`}
               >
@@ -45,7 +44,7 @@ function TestimonialPage() {
                   <img
                     src={testimonial.imageUrl}
                     alt={`Profile of ${testimonial.name}`}
-                    className="w-16 h-16 rounded-full inline-block mr-2"
+                    className="w-12 h-12 md:w-16 md:h-16 rounded-full inline-block mr-2"
                   />
                   <div className="font-semibold text-blue-700">
                     {testimonial.name}

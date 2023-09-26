@@ -6,22 +6,22 @@ import abc from '../assets/yellowpad.png';
 import cba from '../assets/pinkpad.png';
 
 const Feature = ({ icon, text }) => (
-  <div className='flex'>
+  <div className='flex items-center'>
     <div>
       {' '}
       <img src={icon} className='h-[40px]' alt="Feature Icon" />
     </div>
-    <div className='flex items-center'>
+    <div className='ml-2'>
       {text}
     </div>
   </div>
 );
 
 const Section = ({ title, images, features }) => (
-  <div className='border hover:border-purple-500 bg-pink-200 hover:bg-[#e4b3cb] border-pink-400 gap-7 flex rounded-md px-9 py-7'>
+  <div className='border hover:border-purple-500 bg-pink-200 hover:bg-[#e4b3cb] border-pink-400 gap-7 flex flex-col sm:flex-row rounded-md px-6 py-7'>
     {/* left side */}
-    <div className='flex flex-col justify-center w-[500px] '>
-      <div className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-700 to-pink-700 text-center py-2 text-2xl font-semibold'>
+    <div className='flex flex-col justify-center w-full sm:w-1/2'>
+      <div className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-700 to-pink-700 text-center py-2 text-xl sm:text-2xl font-semibold'>
         {title}
       </div>
       {features.map((feature, index) => (
@@ -31,7 +31,7 @@ const Section = ({ title, images, features }) => (
     {/* left side */}
 
     {/* right side */}
-    <div className='flex justify-center items-center px-5 gap-5 '>
+    <div className='flex justify-center items-center gap-5 '>
       {images.map((image, index) => (
         <img key={index} src={image} className='h-[240px] w-[240px] transition-transform duration-200 transform hover:scale-125 ' alt={`Image ${index}`} />
       ))}
@@ -65,10 +65,10 @@ const Pads = () => {
           alt="Sanitary Pads"
         />
       </div>
-      <div className='font-extrabold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-pink-600 text-center px-6 py-7'>
+      <div className='font-extrabold text-3xl sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-pink-600 text-center px-6 py-7'>
         Discover a Wide Range of Daily Sanitary Pads.
       </div>
-      <div className=' w-full flex flex-col gap-6 justify-center py-6 px-32'>
+      <div className='w-full flex flex-col gap-6 justify-center py-6 px-4 sm:px-32'>
         <Section
           title="Ultra Premium Comfort Nights"
           images={[abc, cba]}
@@ -99,4 +99,5 @@ const Pads = () => {
     </div>
   );
 };
+
 export default Pads;

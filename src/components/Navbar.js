@@ -37,7 +37,7 @@ const Navbar = () => {
   const handleAdultDiapersClick = () => {
     setShowDropdown(false); 
    
-    navigate('/adult-diaper');
+    navigate('/baby-diaper');
   };
 
   const handleBabyDiapersClick = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
    
   
-  <div className="flex items-center justify-between w-full gap-10 lg:px-[40px] bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px] bg-yellow-400 ">
+  <div className="flex items-center justify-between w-full gap-10 lg:px-[40px] bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]  ">
    
 
         
@@ -80,7 +80,7 @@ const Navbar = () => {
                   <Link to='/sanitary-pads'>
                   <div className="hover:text-[#ed93c0]"  onClick={handleSanitaryPadsClick}>Sanitary Pads</div>
                   </Link>
-                  <Link to='/adult-diaper'>
+                  <Link to='/baby-diaper'>
                   <div className="hover:text-[#ed93c0]" onClick={handleAdultDiapersClick}>Adult Diapers</div>
                   </Link>
                   <Link to='/baby-diaper'>
@@ -151,11 +151,12 @@ const Navbar = () => {
     </div>
     </Link>
 
-
+    <Link to='/media'>
 <div className='border border-gray-400  flex gap-2 text-gray-600 
 items-center w-[250px] justify-center  py-2'>
   <div >Media</div>
   </div>
+  </Link>
 
   <Link to='/contact'>
   <div className='border border-gray-400  flex gap-2 text-gray-600 

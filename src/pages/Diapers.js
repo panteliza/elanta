@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import padpic from '../assets/padpic.png';
-import abc from '../assets/yellowpad.png';
-import cba from '../assets/pinkpad.png';
+import diaperpic from '../assets/baby diaper.png';
+import abc from '../assets/baby boss.png';
+import cba from '../assets/baby boss.png';
 
 const Feature = ({ icon, text }) => (
   <div className='flex'>
@@ -25,7 +25,7 @@ const Section = ({ title, images, features }) => (
         {title}
       </div>
       {features.map((feature, index) => (
-        <Feature key={index} icon={padpic} text={feature} />
+        <Feature key={index} icon={diaperpic} text={feature} />
       ))}
     </div>
     {/* left side */}
@@ -71,17 +71,17 @@ const Pads = () => {
       </div>
       <div className=' w-full flex flex-col gap-6 justify-center py-6 px-32'>
         <Section
-          title="Ultra Premium Comfort Nights"
+          title="Baby Boss  Diaper Small"
           images={[abc, cba]}
           features={padFeatures}
         />
         <Section
-          title="Long Lasting Ultra Protection Super Active"
+          title="Baby Boss  Diaper Medium"
           images={[abc, cba]}
           features={padFeatures}
         />
         <Section
-          title="Size 280 MM Pads"
+          title="Baby Boss  Diaper Large"
           images={[abc, cba]} // You can replace with the appropriate images
           features={padFeatures280MM}
         />
