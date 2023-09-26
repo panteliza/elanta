@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/elanta/static/css/main.6c47e5ab.css",
-    "main.js": "/elanta/static/js/main.53a2f458.js",
-    "static/js/787.713450c9.chunk.js": "/elanta/static/js/787.713450c9.chunk.js",
-    "static/media/IMG-8118.jpg": "/elanta/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
-    "static/media/awareness (1).jpg": "/elanta/static/media/awareness (1).3b23183c901912ffa61b.jpg",
-    "static/media/IMG-6926.jpg": "/elanta/static/media/IMG-6926.fb1a9a906517af2c0427.jpg",
-    "static/media/IMG-4762.jpg": "/elanta/static/media/IMG-4762.84834cb671a4d94bff1b.jpg",
-    "static/media/awareness (2).jpg": "/elanta/static/media/awareness (2).98be65fe73d24bcb725b.jpg",
-    "static/media/map.png": "/elanta/static/media/map.6d93dab90b519b074bd5.png",
-    "static/media/bluepad.png": "/elanta/static/media/bluepad.bbcb8fc2c2e2e86e15fe.png",
-    "static/media/pinkpad.png": "/elanta/static/media/pinkpad.23da994ad21128e0016f.png",
-    "static/media/yellowpad.png": "/elanta/static/media/yellowpad.2fd254e64e9322ab868b.png",
-    "static/media/butterfly.jpg": "/elanta/static/media/butterfly.76595f902d0620c2ad58.jpg",
-    "static/media/padpic.png": "/elanta/static/media/padpic.360ddda6509e327c9570.png",
-    "index.html": "/elanta/index.html",
-    "main.6c47e5ab.css.map": "/elanta/static/css/main.6c47e5ab.css.map",
-    "main.53a2f458.js.map": "/elanta/static/js/main.53a2f458.js.map",
-    "787.713450c9.chunk.js.map": "/elanta/static/js/787.713450c9.chunk.js.map"
+    "main.css": "/static/css/main.6c47e5ab.css",
+    "main.js": "/static/js/main.2a1bfdce.js",
+    "static/js/787.713450c9.chunk.js": "/static/js/787.713450c9.chunk.js",
+    "static/media/IMG-8118.jpg": "/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
+    "static/media/awareness (1).jpg": "/static/media/awareness (1).3b23183c901912ffa61b.jpg",
+    "static/media/IMG-6926.jpg": "/static/media/IMG-6926.fb1a9a906517af2c0427.jpg",
+    "static/media/IMG-4762.jpg": "/static/media/IMG-4762.84834cb671a4d94bff1b.jpg",
+    "static/media/awareness (2).jpg": "/static/media/awareness (2).98be65fe73d24bcb725b.jpg",
+    "static/media/map.png": "/static/media/map.6d93dab90b519b074bd5.png",
+    "static/media/bluepad.png": "/static/media/bluepad.bbcb8fc2c2e2e86e15fe.png",
+    "static/media/pinkpad.png": "/static/media/pinkpad.23da994ad21128e0016f.png",
+    "static/media/yellowpad.png": "/static/media/yellowpad.2fd254e64e9322ab868b.png",
+    "static/media/butterfly.jpg": "/static/media/butterfly.76595f902d0620c2ad58.jpg",
+    "static/media/padpic.png": "/static/media/padpic.360ddda6509e327c9570.png",
+    "index.html": "/index.html",
+    "main.6c47e5ab.css.map": "/static/css/main.6c47e5ab.css.map",
+    "main.2a1bfdce.js.map": "/static/js/main.2a1bfdce.js.map",
+    "787.713450c9.chunk.js.map": "/static/js/787.713450c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c47e5ab.css",
-    "static/js/main.53a2f458.js"
+    "static/js/main.2a1bfdce.js"
   ]
 }
