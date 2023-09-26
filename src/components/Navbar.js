@@ -25,7 +25,7 @@ const Navbar = () => {
   const handleAllProductsClick = () => {
     setShowDropdown(false); // Close the dropdown
     // Programmatically navigate to the '/categories' route
-    navigate('/categories');
+    navigate('/');
   };
 
   const handleSanitaryPadsClick = () => {
@@ -151,7 +151,7 @@ const Navbar = () => {
     </div>
     </Link>
 
-    <Link to='/media'>
+    <Link to='/'>
 <div className='border border-gray-400  flex gap-2 text-gray-600 
 items-center w-[250px] justify-center  py-2'>
   <div >Media</div>
