@@ -48,10 +48,11 @@ const Navbar = () => {
 
 
   return (
-    <div className=''>
+   
   
-      <div className="flex items-center justify-between  w-full gap-10 lg:px-[40px] 
-    bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]    ">
+  <div className="flex items-center justify-between w-full gap-10 lg:px-[40px] bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px] bg-yellow-400 ">
+   
+
         
         <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer md:hidden lg:block">
   <img src={abc} alt="logo" className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full md:hidden lg:block" />
@@ -195,7 +196,7 @@ items-center w-[250px] justify-center py-2'>
           <BsInstagram className="hover:text-pink-600" />
         </div>
      </div>
-     </div>
+   
   
   );
 };
