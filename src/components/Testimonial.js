@@ -28,7 +28,7 @@ function TestimonialPage() {
   return (
     <div className="bg-[#f1b7d4] pt-2 flex flex-col gap-7">
       <header className="text-white text-center">
-        <h1 className="font-bold text-[40px]">Our Customer Says</h1>
+        <h1 className="font-bold  sm:text-[30px] text-[25px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] ">Our Customer Says</h1>
       </header>
       <main className="container mx-auto px-4 md:px-6">
         <section className="bg-white rounded-lg shadow-md p-4 md:p-6 mb-4 md:mb-6">

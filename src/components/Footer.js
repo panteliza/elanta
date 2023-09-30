@@ -9,7 +9,7 @@ import { MdLocationOn } from 'react-icons/md';
 const Footer = () => {
   return (
     <div className='bg-[#f1b7d4] bg-pink-400'>
-      <div className='flex flex-col gap-4 py-8 px-4 sm:px-7 md:flex-row justify-center items-center md:gap-[100px]'>
+      <div className='flex flex-col gap-4 py-8 px-4 sm:px-7 md:flex-row justify-center items-center md:gap-[60px] lg:gap-[120px] xl:gap-[150px] '>
         <div className="flex flex-col items-center">
           <div className="flex justify-center items-center w-[80px]">
             <img src={abc} alt="logo" className="h-14 w-14 rounded-full" />
@@ -21,13 +21,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-col justify-center items-center font-semibold text-[18px] gap-5'>
+        <div className='flex flex-col justify-center items-center font-semibold md:text-[15px] text-[18px] gap-5'>
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='Home' />
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='About' />
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='Contact' />
         </div>
 
-        <div className='flex flex-col justify-center items-center font-semibold text-[18px] gap-5'>
+        <div className='flex flex-col justify-center items-center font-semibold text-[18px] md:text-[15px] gap-5'>
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='Sanitary Pads' />
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='Baby Diapers' />
           <NavItem icon={<PiFlowerFill className='text-pink-600' />} text='Adult Diapers' />

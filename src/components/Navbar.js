@@ -37,7 +37,7 @@ const Navbar = () => {
   const handleAdultDiapersClick = () => {
     setShowDropdown(false); 
    
-    navigate('/baby-diaper');
+    navigate('/adult-diaper');
   };
 
   const handleBabyDiapersClick = () => {
@@ -80,7 +80,7 @@ const Navbar = () => {
                   <Link to='/sanitary-pads'>
                   <div className="hover:text-[#ed93c0]"  onClick={handleSanitaryPadsClick}>Sanitary Pads</div>
                   </Link>
-                  <Link to='/baby-diaper'>
+                  <Link to='/adult-diaper'>
                   <div className="hover:text-[#ed93c0]" onClick={handleAdultDiapersClick}>Adult Diapers</div>
                   </Link>
                   <Link to='/baby-diaper'>

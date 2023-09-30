@@ -10,6 +10,7 @@ import diapers from '../assets/IMG-4762.jpg';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Mission from '../components/Mission';
+import aware from '../assets/awareness (1).jpg'
 
 const About = () => {
   return (
@@ -18,8 +19,8 @@ const About = () => {
 
       <div>
         <img
-          src="https://images.ctfassets.net/9wtva4vhlgxb/4ctwud75d425G2fKSt2mr/e484856bf2245b0db94163a5ba65756e/Leaking_Diaper_720________432.jpg?fm=webp&q=70"
-          className="w-full h-[450px]"
+          src={aware}
+          className="w-full sm:h-[450px] md:h-[550px] lg:h-[600px] xl:h-[650px] 2xl:h-[900px] "
           alt="Sanitary Pads"
         />
       </div>

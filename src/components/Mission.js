@@ -7,7 +7,7 @@ const Mission = () => {
   return (
     <div>
       <div className="bg-white py-7 px-4 sm:px-14">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5  2xl:gap-12">
           {/* Mission */}
           <div className="flex flex-col w-full sm:w-[400px] justify-center items-center gap-5">
             <div className=""><SlBadge className="text-pink-400 text-[40px]" /></div>
@@ -25,7 +25,7 @@ const Mission = () => {
           {/* Primary Line of Business */}
           <div className="flex flex-col w-full sm:w-[400px] justify-center items-center gap-5">
             <div className=""><TfiIdBadge className="text-pink-400 text-[40px]" /></div>
-            <div className="font-bold text-gray-800 text-[25px]">Primary Line of Business</div>
+            <div className="font-bold text-gray-800 text-[25px] text-center">Primary Line of Business</div>
             <div className="text-gray-500 text-center">Health And Hygiene Products: Sanitary pads, Baby Diapers, Adult Diapers</div>
           </div>
         </div>

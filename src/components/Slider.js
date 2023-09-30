@@ -22,17 +22,17 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className="w-full">
-            <img src={pads} className="h-[640px] w-full object-cover" alt="Slider" />
+            <img src={pads} className="h-[500px] sm:h-[640px] 2xl:h-[900px] w-full object-cover" alt="Slider" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="w-full">
-            <img src={bluepads} className="h-[640px] w-full object-cover" alt="Slider" />
+            <img src={bluepads} className=" h-[500px] sm:h-[640px] 2xl:h-[900px] w-full object-cover" alt="Slider" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="w-full">
-            <img src={diapers} className="h-[640px] w-full object-cover" alt="Slider" />
+            <img src={diapers} className=" h-[500px] sm:h-[640px] 2xl:h-[900px] w-full object-cover" alt="Slider" />
           </div>
         </SwiperSlide>
       </Swiper>
