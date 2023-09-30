@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cd10226.css",
-    "main.js": "/static/js/main.dc791045.js",
+    "main.css": "/static/css/main.715e5c19.css",
+    "main.js": "/static/js/main.a41f3de8.js",
     "static/js/787.713450c9.chunk.js": "/static/js/787.713450c9.chunk.js",
     "static/media/IMG-8118.jpg": "/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
     "static/media/awareness (1).jpg": "/static/media/awareness (1).3b23183c901912ffa61b.jpg",
@@ -17,12 +17,12 @@
     "static/media/padpic.png": "/static/media/padpic.360ddda6509e327c9570.png",
     "static/media/baby diaper.png": "/static/media/baby diaper.9defb606890962273043.png",
     "index.html": "/index.html",
-    "main.6cd10226.css.map": "/static/css/main.6cd10226.css.map",
-    "main.dc791045.js.map": "/static/js/main.dc791045.js.map",
+    "main.715e5c19.css.map": "/static/css/main.715e5c19.css.map",
+    "main.a41f3de8.js.map": "/static/js/main.a41f3de8.js.map",
     "787.713450c9.chunk.js.map": "/static/js/787.713450c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cd10226.css",
-    "static/js/main.dc791045.js"
+    "static/css/main.715e5c19.css",
+    "static/js/main.a41f3de8.js"
   ]
 }
