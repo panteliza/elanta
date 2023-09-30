@@ -53,11 +53,12 @@ const Navbar = () => {
   <div className="flex items-center justify-between w-full gap-10 lg:px-[40px] bg-[#F4F4F4] pt-[6px] pb-[6px] px-[50px]  ">
    
 
-        
+   <Link to='/'>
         <div className="transition-transform duration-200 transform hover:scale-125 cursor-pointer md:hidden lg:block">
+          
   <img src={abc} alt="logo" className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] 2xl:h-[150px] 2xl:w-[150px] rounded-full md:hidden lg:block" />
 </div>
-
+</Link>
 
 
         <div className=" hidden lg:flex text-[20px] 2xl:text-[40px] gap-16 text-pink-500 cursor-pointer items-center">

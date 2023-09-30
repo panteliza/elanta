@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import pads from '../assets/awareness (2).jpg';
 import pads1 from '../assets/awareness (1).jpg';
+import { Link } from 'react-scroll';
 
 function Predictor() {
   const [firstDayOfLastPeriod, setFirstDayOfLastPeriod] = useState('');
@@ -37,70 +38,41 @@ function Predictor() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row bg-[#f1b7d4] px-10 py-24 gap-12 items-center justify-center">
-      <div className="w-[800px] flex px-2">
-        <div className="flex flex-col gap-10">
-          <div className="flex flex-col items-center lg:items-start">
-            {/* Image and Content 1 */}
-            <div className="w-[300px] h-[300px] bg-white shadow-2xl flex flex-col items-center">
-              <img src={pads} className="w-[300px] h-[280px]" />
-              <div className="font-semibold text-gray-600 px-1 text-sm text-center">
-                Breaking Barriers: Embracing Open Conversations About Menstruation
+    <div className="flex flex-col lg:flex-row bg-[#f1b7d4] px-10 py-24 gap-5 items-center justify-center">
+      <div className="lg:flex lg:w-[50%] px-2">
+        <div className="lg:flex lg:flex-row lg:flex-wrap justify-between gap-10">
+          {/* Two Images in a Row */}
+          <div className="lg:w-[52%] mb-6">
+            
+            <div>
+              <img src={pads} className="w-full h-[270px]" alt="Image 1" />
+              <div className="font-semibold text-gray-600 text-center">
+                <Link to='breaking-barriers' spy={true} smooth={true}>
+                  <div className='hover:underline cursor-pointer'>Breaking Barriers: Embracing Open Conversations About Menstruation</div>
+                </Link>
+              </div>
+            </div>
+            
+          </div>
+          <div className="lg:w-[52%] mb-6">
+            <div>
+              <img src={pads1} className="w-full h-[280px]" alt="Image 2" />
+              <div className="font-semibold text-gray-600 text-center">
+                <Link to='feel-good' spy={true} smooth={true}>
+                  <div className='hover:underline cursor-pointer'>Feel Good: Empower Your Cycle</div>
+                </Link>
               </div>
             </div>
           </div>
+          
 
-          <div className="flex flex-col items-center lg:items-start">
-            {/* Image and Content 2 */}
-            <div className="w-[300px] h-[300px] bg-white flex flex-col items-center">
-              <img src={pads1} className="w-[300px] h-[280px]" />
-              <div className="font-semibold text-gray-600 px-1 text-sm text-center">
-                Feel Good: Empower Your Cycle
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Responsive Layout for Screens < lg */}
-      <div className="lg:hidden">
-        <div className="w-[300px] flex flex-col items-center">
-          {/* Image and Content 1 */}
-          <div className="bg-white p-4 rounded shadow-md mb-4">
-            <div className="text-gray-500 text-justify">
-              In a world where open conversations about menstruation have often
-              been shrouded in silence and secrecy, it's time to break free from
-              the confines of discomfort and shyness. Menstruation is a natural
-              and essential aspect of human life, and discussing it openly is
-              not just necessary, but liberating. In this blog post, we'll dive
-              into why it's important to overcome shyness and embrace candid
-              conversations about menstruation.
-            </div>
-            <button className="rounded-md px-3 py-1 bg-pink-500">Learn More</button>
-          </div>
-        </div>
-
-        <div className="w-[300px] flex flex-col items-center">
-          {/* Image and Content 2 */}
-          <div className="bg-white p-4 rounded shadow-md mb-4">
-            <div className="text-gray-500 text-justify">
-              Every woman's journey with menstruation is unique, but one thing
-              holds true for all: the importance of cultivating healthy menstrual
-              habits. These habits not only contribute to physical well-being but
-              also empower you to embrace your body's natural rhythms. In this
-              blog post, we'll explore a range of menstrual habits that can help
-              you feel good, confident, and connected to your body throughout your
-              cycle.
-            </div>
-            <button className="rounded-md px-3 py-1 bg-pink-500">Learn More</button>
-          </div>
         </div>
       </div>
 
       {/* Calculator Div */}
       <div
         className={`bg-white p-8 rounded shadow-md w-96 ${
-          isCalculated ? 'h-[555px]' : 'h-[450px]'
+          isCalculated ? 'h-[555px]' : 'h-[500px]'
         }`}
       >
         <h1 className="text-2xl font-semibold mb-4 text-center text-gray-500">

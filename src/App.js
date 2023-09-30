@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import AdultDiapers from './pages/AdultDiapers';
 import Media from './pages/Media';
+import Blog1 from './pages/Blog1';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/adult-diaper" element={<AdultDiapers/>} />          
           <Route path="/media" element={<Media/>} />          
           <Route path="/about" element={<About />} />
+          <Route path="/breaking-barriers" element={<Blog1 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/sanitary-pads" element={<Pads />} />
           <Route path="/" element={<Home />} />
