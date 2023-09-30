@@ -151,7 +151,7 @@ const Navbar = () => {
     </div>
     </Link>
 
-    <Link to='/'>
+    <Link to='/media'>
 <div className='border border-gray-400  flex gap-2 text-gray-600 
 items-center w-[250px] justify-center  py-2'>
   <div >Media</div>

@@ -32,7 +32,8 @@ const Section = ({ title, images, features }) => (
     {/* right side */}
     <div className='flex justify-center items-center px-5 gap-5 lg:w-[50%]'>
       {images.map((image, index) => (
-        <img key={index} src={image} className='h-[240px] w-[240px] transition-transform duration-200 transform hover:scale-125 ' alt={`Image ${index}`} />
+        <img key={index} src={image} className='md:h-[240px] md:w-[240px] h-[150px]
+        w-[150px] transition-transform duration-200 transform hover:scale-125 ' alt={`Image ${index}`} />
       ))}
     </div>
     {/* right side */}
