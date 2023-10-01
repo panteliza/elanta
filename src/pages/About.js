@@ -62,7 +62,7 @@ const About = () => {
           </div>
           <div className="w-full sm:w-1/2 px-4 sm:px-10 text-justify">
             <p className='text-base sm:text-lg'>
-              {/* Your content here */}
+             
               About Elanta Health Care And Hygiene Products Pvt. Ltd
 
               Welcome to Elanta Health Care And Hygiene Products Pvt. Ltd, your trusted partner in promoting personal health and hygiene awareness through affordable and accessible solutions. At Elanta, we firmly believe that hygiene is a fundamental human right that should never be compromised due to cost. Our unwavering commitment to this belief drives everything we do.
