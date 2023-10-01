@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e531a54d.css",
-    "main.js": "/static/js/main.c6f6fc6a.js",
+    "main.js": "/static/js/main.6b0fe8f9.js",
     "static/js/787.713450c9.chunk.js": "/static/js/787.713450c9.chunk.js",
     "static/media/IMG-8118.jpg": "/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
     "static/media/awareness (1).jpg": "/static/media/awareness (1).3b23183c901912ffa61b.jpg",
@@ -25,11 +25,11 @@
     "static/media/baby diaper.png": "/static/media/baby diaper.9defb606890962273043.png",
     "index.html": "/index.html",
     "main.e531a54d.css.map": "/static/css/main.e531a54d.css.map",
-    "main.c6f6fc6a.js.map": "/static/js/main.c6f6fc6a.js.map",
+    "main.6b0fe8f9.js.map": "/static/js/main.6b0fe8f9.js.map",
     "787.713450c9.chunk.js.map": "/static/js/787.713450c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e531a54d.css",
-    "static/js/main.c6f6fc6a.js"
+    "static/js/main.6b0fe8f9.js"
   ]
 }
