@@ -22,15 +22,14 @@ const Contact = () => {
           </p>
         </div>
         
-        {/* Add a link to the image */}
+        
         <div className="text-center">
           <a href={mapImageUrl} target="_blank" rel="noopener noreferrer">
             <img src={map} alt="Map" className="mx-auto max-w-full h-auto" />
           </a>
         </div>
 
-        {/* Include your ContactForm component */}
-        <ContactForm />
+      
       </div>
       <Footer />
     </div>
