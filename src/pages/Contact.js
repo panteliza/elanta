@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
 import map from '../assets/map.png';
 
-const mapImageUrl = 'https://www.google.com/maps/place/Elanta+Health+Care+And+Hygiene+Products/@27.6792007,84.391558,17z/data=!3m1!4b1!4m6!3m5!1s0x3994fb31650c21e5:0xd4c20a9f55ff0d2!8m2!3d27.6792007!4d84.391558!16s%2Fg%2F11qrnsmbfn?entry=ttu'; // Replace with the actual URL of your image
+const mapImageUrl = 'https://www.google.com/maps/place/Elanta+Health+Care+And+Hygiene+Products/@27.6792007,84.391558,17z/data=!3m1!4b1!4m6!3m5!1s0x3994fb31650c21e5:0xd4c20a9f55ff0d2!8m2!3d27.6792007!4d84.391558!16s%2Fg%2F11qrnsmbfn?entry=ttu';
 
 const Contact = () => {
   return (
