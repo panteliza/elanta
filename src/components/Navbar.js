@@ -170,12 +170,13 @@ items-center w-[250px] justify-center py-2'>
     <BsFacebook className="hover:text-pink-600" />
     <BsInstagram className="hover:text-pink-600" />
 </div>
-
+<Link to='/contact'>
 <div className='bg-pink-400 rounded-3xl mt-[80px] px-12 py-2 text-white
  text-[18px] w-[260px]'>
   <div>Dealership Enquiry</div>
   
 </div>
+</Link>
 
   </div>
         
