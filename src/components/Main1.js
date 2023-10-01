@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import sanitaryPad from '../assets/pad1.png';
+import sanitaryPad from '../assets/bluepad.png';
 import diaper from '../assets/diaperpic.png';
 import facialwipes from '../assets/facialwipes.png';
 import facemask from '../assets/facemask.png';
 import adultDiaper from '../assets/adult diaper2.png';
-import anotherPad from '../assets/pad3.png';
+import anotherPad from '../assets/pad1.png';
 
 export default function App() {
   const [isHovered, setIsHovered] = useState(null);
