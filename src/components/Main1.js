@@ -28,7 +28,7 @@ export default function App() {
             image={index === 1 ? sanitaryPad : index === 2 ? diaper : index === 3 ? facialwipes : index === 4 ? facemask : index === 5 ? adultDiaper : anotherPad}
             title={
               index === 1 ? 'Sanitary Pad' :
-              index === 2 ? 'Sanitary Pad' :
+              index === 2 ? 'Baby Diaper' :
               index === 3 ? 'Facial Wipes' :
               index === 4 ? 'Face Mask' :
               index === 5 ? 'Adult Diaper' :
