@@ -14,10 +14,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <div>
-        {/* Your other components */}
       
         <Routes>
-          {/* Define your routes here */}
+       
           <Route path="/baby-diaper" element={<Diapers />} />
           <Route path="/adult-diaper" element={<AdultDiapers/>} />          
           <Route path="/media" element={<Media/>} />          
@@ -26,9 +25,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/sanitary-pads" element={<Pads />} />
           <Route path="/" element={<Home />} />
-           {/* Add a route for /elanta */}
+           
           <Route path="/elanta" element={<Home />} />  
-          {/* Add more routes if needed */}
+         
         </Routes>
       </div>
     </BrowserRouter>

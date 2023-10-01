@@ -55,7 +55,7 @@ const Pads = () => {
 
   const padFeatures280MM = [
     "SIZE: 280 MM", // Add size 280 MM
-    ...padFeatures.slice(1) // Include remaining features from padFeatures
+    ...padFeatures.slice(1)
   ];
 
   return (
@@ -84,17 +84,17 @@ const Pads = () => {
         />
         <Section
           title="Size 280 MM Pads"
-          images={[abc, cba]} // You can replace with the appropriate images
+          images={[abc, cba]} 
           features={padFeatures280MM}
         />
         <Section
           title="Size 280 MM Pads"
-          images={[abc, cba]} // You can replace with the appropriate images
+          images={[abc, cba]} 
           features={padFeatures280MM}
         />
          <Section
           title="Size 280 MM Pads"
-          images={[abc, cba]} // You can replace with the appropriate images
+          images={[abc, cba]} 
           features={padFeatures280MM}
         />
       </div>
