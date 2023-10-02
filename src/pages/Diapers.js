@@ -41,18 +41,45 @@ const Section = ({ title, images, features }) => (
 );
 
 const Pads = () => {
-  const padFeatures = [
-    "SIZE: 330 MM",
+  
+  const padFeaturesSmall = [
+    "SIZE: Small", 
     "UV sterilized 100% germs protection",
     "Soft topsheet for extra comfort",
     "No harmful perfume or color",
     "Super High Absorbent Japanese Sumitomo Gel",
-    "Protection Against Heavy Flow"
+    "Protection Against Heavy Flow",
+    "Additional Feature 1 for Small",
+    "Additional Feature 2 for Small",
+    
   ];
 
-  const padFeatures280MM = [
-    "SIZE: 280 MM", // Add size 280 MM
-    ...padFeatures.slice(1) 
+  
+  const padFeaturesMedium = [
+    "SIZE: Medium", 
+    "Super dry baby pants",
+    "Up to 12 hours absorption",
+    "Silky soft & breathable material layer",
+    "Pant style diapers",
+    "Leakproof",
+    "Anti rashes",
+   
+  ];
+
+  
+  const padFeaturesLarge = [
+    "SIZE: Large", 
+    "Up to 12 hours of absorption",
+    "Leakproof",
+    "Anti rashes",
+    "European Standard",
+    "Premium Quality",
+    "Ultra Diaper double leakguards",
+    "Absorbs 40X its weight",
+    "Bubble Topsheet",
+    "Wetness Indicator",
+    "Made without: Chlorine, Latex, Fragrance, Parabens",
+   
   ];
 
   return (
@@ -69,20 +96,25 @@ const Pads = () => {
         Explore baby diapers that keep your little one dry and comfy.
       </div>
       <div className='w-full flex flex-col gap-6 justify-center py-6 px-4 lg:px-32'>
+        {/* Section for Small-sized diaper */}
         <Section
           title="Baby Boss Diaper Small"
           images={[abc, cba]}
-          features={padFeatures}
+          features={padFeaturesSmall}
         />
+
+        {/* Section for Medium-sized diaper */}
         <Section
           title="Baby Boss Diaper Medium"
           images={[abc, cba]}
-          features={padFeatures}
+          features={padFeaturesMedium} 
         />
+
+        {/* Section for Large-sized diaper */}
         <Section
           title="Baby Boss Diaper Large"
-          images={[abc, cba]} 
-          features={padFeatures280MM}
+          images={[abc, cba]}
+          features={padFeaturesLarge} 
         />
       </div>
       <Footer />
