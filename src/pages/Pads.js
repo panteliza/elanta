@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import padpic from '../assets/padpic.png';
 import abc from '../assets/yellowpad.png';
+import pads from '../assets/IMG-6926.jpg';
 import cba from '../assets/pinkpad.png';
 import pink from '../assets/pad1.png';
 import black from '../assets/pad2.png';
@@ -63,7 +64,7 @@ const Pads = () => {
       <Navbar />
       <div className=''>
         <img
-          src="https://images.unsplash.com/photo-1612882514163-c9b0045b621c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+          src={pads}
           className='w-full h-[400px]'
           alt="Sanitary Pads"
         />

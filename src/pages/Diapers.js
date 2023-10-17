@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import diaperpic from '../assets/baby diaper.png';
-import abc from '../assets/baby boss.png';
-import cba from '../assets/baby boss.png';
+import abc from '../assets/IMG-4762.jpg'
+import cba from '../assets/IMG-4762.jpg';
 
 const Feature = ({ icon, text }) => (
   <div className='flex items-center'>
