@@ -2,18 +2,21 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import padpic from '../assets/padpic.png';
-import abc from '../assets/yellowpad.png';
+import pblue from '../assets/bluepad-removebg-preview.png';
 import pads from '../assets/IMG-6926.jpg';
-import cba from '../assets/pinkpad.png';
-import pink from '../assets/pad1.png';
-import black from '../assets/pad2.png';
-import coverpad from '../assets/coverpad.png';
+import bluep from '../assets/one.jpg';
+import redp from '../assets/red_pad-removebg-preview.png';
+import pred from '../assets/two.jpg';
+import pyellow from '../assets/IMG-5488__1_-removebg-preview.png';
+import yellowp from '../assets/three.jpg';
+
 
 const Feature = ({ icon, text }) => (
   <div className='flex items-center'>
     <div>
       {' '}
-      <img src={icon} className='h-[40px]' alt="Feature Icon" />
+      <img src={icon} className='h-[50px] ' alt="Feature Icon" />
+
     </div>
     <div className='ml-2'>
       {text}
@@ -37,7 +40,7 @@ const Section = ({ title, images, features }) => (
     {/* right side */}
     <div className='flex justify-center items-center gap-5  '>
       {images.map((image, index) => (
-        <img key={index} src={image} className='h-[240px] w-[240px] transition-transform duration-200 transform hover:scale-125 ' alt={`Image ${index}`} />
+        <img key={index} src={image} className='h-[150px] w-[180px] transition-transform duration-200 transform hover:scale-125 ' alt={`Image ${index}`} />
       ))}
     </div>
     {/* right side */}
@@ -65,7 +68,7 @@ const Pads = () => {
       <div className=''>
         <img
           src={pads}
-          className='w-full h-[400px]'
+          className='w-full h-[500px] object-cover'
           alt="Sanitary Pads"
         />
       </div>
@@ -75,29 +78,20 @@ const Pads = () => {
       <div className='w-full flex flex-col gap-6 justify-center py-6 px-4 sm:px-32 '>
         <Section
           title="Ultra Premium Comfort Nights"
-          images={[abc, cba]}
+          images={[bluep, pblue]}
           features={padFeatures}
         />
         <Section
           title="Long Lasting Ultra Protection Super Active"
-          images={[abc, cba]}
+          images={[yellowp, pyellow]}
           features={padFeatures}
         />
         <Section
           title="Size 280 MM Pads"
-          images={[abc, cba]} 
+          images={[pred,redp]} 
           features={padFeatures280MM}
         />
-        <Section
-          title="Size 280 MM Pads"
-          images={[abc, cba]} 
-          features={padFeatures280MM}
-        />
-         <Section
-          title="Size 280 MM Pads"
-          images={[abc, cba]} 
-          features={padFeatures280MM}
-        />
+       
       </div>
       <Footer/>
     </div>

@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import diaperpic from '../assets/baby diaper.png';
 import abc from '../assets/IMG-4762.jpg'
-import cba from '../assets/IMG-4762.jpg';
+import cba from '../assets/baby.PNG';
 
 const Feature = ({ icon, text }) => (
   <div className='flex items-center'>
@@ -88,7 +88,7 @@ const Pads = () => {
       <div className=''>
         <img
           src="https://images.ctfassets.net/9wtva4vhlgxb/4ctwud75d425G2fKSt2mr/e484856bf2245b0db94163a5ba65756e/Leaking_Diaper_720________432.jpg?fm=webp&q=70"
-          className='w-full h-[450px]'
+          className='w-full h-[450px] object-cover'
           alt="Sanitary Pads"
         />
       </div>

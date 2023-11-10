@@ -20,7 +20,7 @@ const About = () => {
       <div>
         <img
           src={aware}
-          className="w-full sm:h-[450px] md:h-[550px] lg:h-[600px] xl:h-[650px] 2xl:h-[900px] "
+          className="w-full sm:h-[450px] md:h-[550px] lg:h-[600px] xl:h-[650px] 2xl:h-[900px] object-cover"
           alt="Sanitary Pads"
         />
       </div>
