@@ -1,29 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e290d30.css",
-    "main.js": "/static/js/main.53a2eb46.js",
+    "main.css": "/static/css/main.cf70198c.css",
+    "main.js": "/static/js/main.647f018e.js",
     "static/js/787.713450c9.chunk.js": "/static/js/787.713450c9.chunk.js",
     "static/media/IMG-8118.jpg": "/static/media/IMG-8118.2915ab803c99e9576edd.jpg",
+    "static/media/bluepad.jpg": "/static/media/bluepad.b3ceb07396402953702e.jpg",
     "static/media/awareness (1).jpg": "/static/media/awareness (1).3b23183c901912ffa61b.jpg",
     "static/media/IMG-6926.jpg": "/static/media/IMG-6926.fb1a9a906517af2c0427.jpg",
     "static/media/IMG-4762.jpg": "/static/media/IMG-4762.84834cb671a4d94bff1b.jpg",
     "static/media/awareness (2).jpg": "/static/media/awareness (2).98be65fe73d24bcb725b.jpg",
+    "static/media/baby.PNG": "/static/media/baby.5361614dbbb60acc86a2.PNG",
+    "static/media/red pad.jpg": "/static/media/red pad.932fd05efe42641514f3.jpg",
+    "static/media/yellow pad.jpg": "/static/media/yellow pad.fcb5a026b089b61378b4.jpg",
     "static/media/map.png": "/static/media/map.6d93dab90b519b074bd5.png",
-    "static/media/pinkpad.png": "/static/media/pinkpad.23da994ad21128e0016f.png",
-    "static/media/yellowpad.png": "/static/media/yellowpad.2fd254e64e9322ab868b.png",
+    "static/media/bluepad-removebg-preview.png": "/static/media/bluepad-removebg-preview.4dc1fab1e84d94b2ff43.png",
+    "static/media/IMG-5488__1_-removebg-preview.png": "/static/media/IMG-5488__1_-removebg-preview.b67de2037a8cf09aa3e5.png",
+    "static/media/red_pad-removebg-preview.png": "/static/media/red_pad-removebg-preview.5ad7d8f9dba01bf28010.png",
+    "static/media/one.jpg": "/static/media/one.3f2a69584505a58803df.jpg",
+    "static/media/two.jpg": "/static/media/two.3f66edcdce2151dec83c.jpg",
+    "static/media/three.jpg": "/static/media/three.137cd950abcb9d2118d3.jpg",
     "static/media/butterfly.jpg": "/static/media/butterfly.76595f902d0620c2ad58.jpg",
-    "static/media/pad1.png": "/static/media/pad1.b58cc20171d8c0de6639.png",
-    "static/media/pad2.png": "/static/media/pad2.f4143073f77bddbcd22e.png",
     "static/media/padpic.png": "/static/media/padpic.360ddda6509e327c9570.png",
-    "static/media/coverpad.png": "/static/media/coverpad.8528b43c1a858719fd13.png",
+    "static/media/facialwipes.png": "/static/media/facialwipes.5bc4e0e9df64eff76669.png",
     "static/media/baby diaper.png": "/static/media/baby diaper.9defb606890962273043.png",
+    "static/media/adultdiaper.png": "/static/media/adultdiaper.933dc45191cfcd7f4ef3.png",
     "index.html": "/index.html",
-    "main.4e290d30.css.map": "/static/css/main.4e290d30.css.map",
-    "main.53a2eb46.js.map": "/static/js/main.53a2eb46.js.map",
+    "main.cf70198c.css.map": "/static/css/main.cf70198c.css.map",
+    "main.647f018e.js.map": "/static/js/main.647f018e.js.map",
     "787.713450c9.chunk.js.map": "/static/js/787.713450c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e290d30.css",
-    "static/js/main.53a2eb46.js"
+    "static/css/main.cf70198c.css",
+    "static/js/main.647f018e.js"
   ]
 }
